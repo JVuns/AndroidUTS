@@ -75,13 +75,7 @@ public class MainActivity2 extends AppCompatActivity {
         randomItems.add(new RandomItem());
         randomItems.add(new RandomItem());
 
-
         setAdapter();
-//        RecyclerView.Adapter adapter = new Adapter(randomItems);
-//        RecyclerView.LayoutManager layoutManager = new LinearLayoutManager(getApplicationContext());
-//        recyclerView.setLayoutManager(layoutManager);
-//        recyclerView.setItemAnimator(new DefaultItemAnimator());
-//        recyclerView.setAdapter(adapter);
 
         goToMain.setOnClickListener(new View.OnClickListener() {
             @Override
